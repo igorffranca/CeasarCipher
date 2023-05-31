@@ -41,7 +41,7 @@ def ceasar(text, shift, direction):
             index = alphabet.index(letter)
             plain_text += alphabet[index - shift]
 
-        print(f"The decoded text is {plain_text}")
+        print(f"The decoded text is {plain_text}\n")
     else:
         print("Invalid option! Try again..")
 
