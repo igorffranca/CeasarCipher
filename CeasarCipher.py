@@ -43,7 +43,7 @@ def ceasar(text, shift, direction):
 
         print(f"The decoded text is {plain_text}\n")
     else:
-        print("Invalid option! Try again..")
+        print("Invalid option! Try again..\n")
 
 while True:
     print(logo)
