@@ -29,7 +29,7 @@ def ceasar(text, shift, direction):
             index = alphabet.index(letter)
             cipher_text += alphabet[index + shift]
     
-        print(f"The encoded text is {cipher_text}")
+        print(f"The encoded text is {cipher_text}\n")
     
     elif direction == "decode":
         plain_text = ''
